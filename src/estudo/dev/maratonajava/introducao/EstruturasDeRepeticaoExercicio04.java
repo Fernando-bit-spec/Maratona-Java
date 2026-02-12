@@ -9,13 +9,10 @@ public class EstruturasDeRepeticaoExercicio04 {
 
         for (int Parcela = 1; Parcela <= valorTotal; Parcela++) {
             double valorParcela = valorTotal / Parcela;
-
-            if (valorParcela >= 1000){
-                System.out.println("Parcela  " + Parcela+ "R$ " +valorParcela);
-            }else {
+            if (valorParcela < 1000) {
                 break;
             }
-            System.out.println("fora do if mas dentro do for " +Parcela);
+            System.out.println("Parcela " +Parcela+  " R$ " +valorParcela);
         }
 
 
