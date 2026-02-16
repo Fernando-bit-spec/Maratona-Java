@@ -1,6 +1,6 @@
 package estudo.dev.maratonajava.introducao;
 
-public class EstruturasDeRepeticaoExercicio04 {
+public class Aula06EstruturasDeRepeticao04Exercicio {
     public static void main(String[] args) {
         //dado um valor de um carro, descubra em quantas ele pode  ser parcelado
         //condição é que o valorParcela >= 1000

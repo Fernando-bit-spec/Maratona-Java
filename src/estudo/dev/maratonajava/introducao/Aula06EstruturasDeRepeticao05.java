@@ -1,6 +1,6 @@
 package estudo.dev.maratonajava.introducao;
 
-public class EstruturasDeRepeticao05 {
+public class Aula06EstruturasDeRepeticao05 {
     public static void main(String[] args) {
         double valorTotal = 300000;
         for (int parcela = (int) valorTotal; parcela >= 1; parcela--) {
