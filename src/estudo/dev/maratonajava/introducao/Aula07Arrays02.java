@@ -7,9 +7,17 @@ public class Aula07Arrays02 {
         // boolean = false
         // String null
 
-        int [] nomes = new int[3];
-        System.out.println(nomes[0]);
-        System.out.println(nomes[1]);
-        System.out.println(nomes[2]);
+        String[] nomes = new String[4];
+        nomes[0] = "Carla";
+        nomes[1] = "Roberto";
+        nomes[2] = "Fernando";
+
+
+        for (int i = 0; i < nomes.length; i++) {
+            System.out.println(nomes[i]);
+
+        }
+        nomes = new String[5];
+
     }
 }

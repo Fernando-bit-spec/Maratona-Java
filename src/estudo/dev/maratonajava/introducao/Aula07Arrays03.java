@@ -2,6 +2,7 @@ package estudo.dev.maratonajava.introducao;
 
 public class Aula07Arrays03 {
     public static void main(String[] args) {
+<<<<<<< HEAD
 
         int[] numeros = new int[3];
         int[] numeros2 = {1, 2, 3, 4, 5};
@@ -12,5 +13,17 @@ public class Aula07Arrays03 {
             System.out.println(numeros3[i]);
 
         }
+=======
+        int [] numeros = new int[3];
+        int [] numeros2 = {1,2,3,4,5};
+        int [] numeros3 = new int[]{5,4,3,2,1};
+
+
+        for (int i = 0; i <numeros3.length ; i++) {
+            System.out.println(numeros3[i]);
+            
+        }
+
+>>>>>>> e9f88bd3efe0399ee43440c1d64545f06944f62c
     }
 }
