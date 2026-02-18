@@ -18,7 +18,6 @@ public class Aula08ArraysMultidimencionais01 {
             for (int j = 0; j < dias[0].length; j++) {
                 System.out.println(dias[i][j]);
             }
-
         }
 
     }
