@@ -19,6 +19,14 @@ public class Aula08ArraysMultidimencionais01 {
                 System.out.println(dias[i][j]);
             }
         }
+        System.out.println("---------------------");
 
+
+        for (int[] arraybase: dias) {
+            for (int num: arraybase){
+                System.out.println(num);
+            }
+            
+        }
     }
 }
