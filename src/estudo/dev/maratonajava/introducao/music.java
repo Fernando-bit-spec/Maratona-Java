@@ -18,7 +18,7 @@ public class music {
                     && linhaPausa.substring(i - linhaPausa.length() + 1, i + 1).equals(linhaPausa)) {
 
                 try {
-                    Thread.sleep(15000); // 14 segundos
+                    Thread.sleep(15000); // 15 segundos
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
