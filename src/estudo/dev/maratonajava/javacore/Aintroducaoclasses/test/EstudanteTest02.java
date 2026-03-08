@@ -2,6 +2,8 @@ package estudo.dev.maratonajava.javacore.Aintroducaoclasses.test;
 
 import estudo.dev.maratonajava.javacore.Aintroducaoclasses.dominio.Estudante;
 
+import java.util.Scanner;
+
 public class EstudanteTest02 {
     public static void main(String[] args) {
         Estudante estudante = new Estudante();
