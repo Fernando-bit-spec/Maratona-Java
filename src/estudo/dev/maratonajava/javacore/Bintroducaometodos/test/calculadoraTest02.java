@@ -2,12 +2,9 @@ package estudo.dev.maratonajava.javacore.Bintroducaometodos.test;
 
 import estudo.dev.maratonajava.javacore.Bintroducaometodos.dominio.Calculadora;
 
-public class calculadoraTest01 {
+public class calculadoraTest02 {
     public static void main(String[] args) {
         Calculadora calculadora = new Calculadora();
-        calculadora.somaDoisNumeros();
-        calculadora.subtraiDoisNumeros();
-
-        System.out.println("Finalizando CalculadoraTest01");
+        calculadora.multiplicaDoisNumeros(10, 20);
     }
 }
